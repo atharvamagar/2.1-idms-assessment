@@ -1,0 +1,51 @@
+.top-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 14px 28px;
+  background-color: var(--color-white);
+  border-bottom: 1px solid var(--color-border-light);
+  height: 61px;
+  box-sizing: border-box;
+}
+
+.top-header-left {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.top-header-logo {
+  height: 28px;
+  width: auto;
+  object-fit: contain;
+}
+
+.top-header-divider {
+  width: 1px;
+  height: 26px;
+  background-color: var(--color-border);
+}
+
+.top-header-profile {
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  border: 1px solid var(--color-secondary);
+  background-color: var(--color-white);
+  color: var(--color-secondary);
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.top-header-profile:hover {
+  background-color: var(--color-bg-alt);
+}
+
+.top-header-avatar {
+  width: 20px;
+  height: 20px;
+  object-fit: contain;
+}
